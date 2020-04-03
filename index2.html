@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="whith=device-whidth, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC8Vpvstg7qGITwmUnJnw6suni_gUYDu8w",
+            authDomain: "siedu-cc9ff.firebaseapp.com",
+            databaseURL: "https://siedu-cc9ff.firebaseio.com",
+            projectId: "siedu-cc9ff",
+            storageBucket: "siedu-cc9ff.appspot.com",
+            messagingSenderId: "446226861607",
+            appId: "1:446226861607:web:00105ec63a9677459cc802",
+            measurementId: "G-12CXTF9ZRB"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+<body>
+    <h4>Registro de usuarios nuevos</h4>
+    <input id="email" type="email" placeholder="Ingrese su Email" />
+    <input id="password" type="password" placeholder="Ingresar Contraseña" />
+    <button onclick="registrar()">Enviar</button>
+
+    <h4>Ingreso de usuarios</h4>
+    <script src="app.js"></script>
+    <input id="email2" type="email" placeholder="Ingrese su Email" />
+    <input id="password2" type="password" placeholder="Ingresar Contraseña" />
+    <button onclick="ingreso()">Enviar</button>
+    <script src="app.js"></script>
+</body>
+</html>
